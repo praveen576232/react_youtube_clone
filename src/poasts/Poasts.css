@@ -1,0 +1,48 @@
+.poast_tumbnail {
+  background-repeat: no-repeat;
+  min-width: 250px;
+  min-height: 300px;
+  max-width: 300px;
+  max-height: 200px;
+  background-size: contain;
+
+ 
+}
+.poasts {
+  min-width: 250px;
+
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.poast_info {
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+}
+.poast_info_top {
+  display: flex;
+  align-items: center;
+}
+.poast_info_top > h5 {
+  padding-left: 8px;
+}
+.poast_info_bottom > p {
+  padding-left: 50px;
+  color: gray;
+}
+.poast_info_time {
+  display: flex;
+
+  padding-left: 49px;
+}
+.poast_info_time > p {
+  color: gray;
+}
+.poast_info_time:last-child > p {
+  padding-right: 10px;
+}
+.MuiAvatar-root {
+  position: unset !important;
+}

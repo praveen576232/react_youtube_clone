@@ -1,0 +1,13 @@
+.logo > img{
+    height: 30px;
+    object-fit: cover;
+    padding-right: 80px;
+    padding-left:10px;
+  }
+  .logo{
+    
+      align-items: center;
+      display: flex;
+      padding-left: 20px;
+      flex-direction: row;
+  }

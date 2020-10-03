@@ -1,0 +1,55 @@
+
+.app_bar_center{
+    display:flex;
+    height: 30px;
+    flex-direction:row;
+    align-items: center;
+    border-radius: 3px;
+    flex: 1;
+    border: 1px solid lightgray;
+}
+.app_bar_center_button{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100% !important;
+    align-self: center !important;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.589);
+    color: gray !important;
+}
+.app_bar_center >input{
+    flex: 1;
+      border:none;
+    width: 100%;
+    /* height: 95%; */
+    
+    padding-left: 20px;
+}
+.app_bar_left{
+    display:flex;
+    width:180px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 80px;
+}
+.app_bar_right .sidebarOPtions{
+    color:grey !important;
+    cursor: pointer;
+}
+.app_bar_left .MuiSvgIcon-root {
+  
+ color:grey !important;
+}
+.app_bar_center >input:focus{
+
+outline: 1px solid blue;
+
+border-radius: 4px;
+}
+.app_bar{
+    display:flex;
+    align-items: center;
+    padding-top: 10px;
+}

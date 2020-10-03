@@ -1,0 +1,27 @@
+.player_left_top {
+  width: 100vw;
+  height: 100vh;
+}
+.videoInfo-row {
+  display: flex;
+  justify-content: space-between;
+ /* flex-direction: column; */
+}
+.videoInfo-row_left_icon {
+  display: flex;
+}
+.videoInfo-row_left_icon {
+  display: flex;
+  padding-left: 10px;
+}
+
+.videoInfo-row_left{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.player_left_top_player{
+  height: 390;
+  width: 640;
+  background-color: black;
+}
